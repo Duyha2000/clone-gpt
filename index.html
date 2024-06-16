@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="flex">
+      <div
+        class="max-w-xs h-screen overflow-y-auto md:min-w-[20rem] bg-[#202123]"
+      >
+        <div class="p-2 flex flex-col h-screen">
+          <div class="flex-1">
+            <div>
+              <div
+                class="border-gray-700 border rounded-lg px-5 py-3 text-sm flex items-center justify-center space-x-2 hover:bg-gray-700/70 cursor-pointer text-gray-300 transition-all duration-200 ease-out"
+              >
+                <svg
+                  class="h-4 w-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 4v16m8-8H4"
+                  ></path>
+                </svg>
+                <p class="ml-2">New Chat</p>
+              </div>
+
+              <a
+                href="/"
+                class="rounded-lg px-5 py-5 text-sm flex items-center justify-center space-x-2 hover:bg-gray-700/70 cursor-pointer text-gray-300 transition-all duration-200 ease-out justify-center mt-3 p-5 bg-gray-700/50"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="h-5 w-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.282 48.282 0 0 0 5.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z"
+                  />
+                </svg>
+
+                <p class="flex-1 hidden md:inline-flex truncate ml-2">
+                  New Chat
+                </p>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="h-5 w-5 text-gray-700 hover:text-red-700"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex items-center justify-center mt-3 bg-gray-700/50 rounded-lg px-5 py-3 text-sm space-x-2 hover:bg-gray-700/70 cursor-pointer text-gray-300 transition-all duration-200 ease-out"
+          >
+            <div
+              class="relative w-12 h-12 border-white border-[1px] rounded-[100%] cursor-pointer mx-auto mb-2 flex items-center justify-center"
+            >
+              <img
+                src="https://icons.veryicon.com/png/o/internet--web/prejudice/user-128.png"
+                alt="Profile picture"
+                class="rounded-full w-[80%] h-[80%] object-cover"
+              />
+            </div>
+            <p class="flex-1 ml-5 md:inline-flex truncate">Mr. Tien</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-[#343541] flex-1">
+        <div
+          class="flex flex-col items-center justify-center h-screen px-2 text-white text-center"
+        >
+          <h1 class="text-5xl font-bold mb-20">ChatGPT</h1>
+
+          <div class="flex space-x-2">
+            <div class="flex flex-col items-center justify-center mb-5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-8 h-8"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"
+                />
+              </svg>
+
+              <h2>Examples</h2>
+              <div class="space-y-2">
+                <p class="p-4 bg-gray-700/50 rounded-lg max-w-[300px]">
+                  "Explain quantum computing in simple terms"
+                </p>
+                <p class="p-4 bg-gray-700/50 rounded-lg max-w-[300px]">
+                  "Got any creative ideas for a 10 year old’s birthday?"
+                </p>
+                <p class="p-4 bg-gray-700/50 rounded-lg max-w-[300px]">
+                  "How do I make an HTTP request in Javascript?"
+                </p>
+              </div>
+            </div>
+
+            <div class="flex flex-col items-center justify-center mb-5">
+              <svg
+                class="h-8 w-8"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9.75 17.75l-2.32-2.32a1.2 1.2 0 00-1.69 0L4 17.16m0-4.29l2.32-2.32a1.2 1.2 0 011.69 0L12 14.25m1.32-3.32a1.2 1.2 0 011.69 0L17 14.25m0 0l2.32-2.32a1.2 1.2 0 011.69 0l1.66 1.66"
+                ></path>
+              </svg>
+              <h2>Capabilities</h2>
+              <div class="space-y-2">
+                <p class="p-4 bg-gray-700/50 rounded-lg max-w-[300px]">
+                  Remembers what user said earlier in the conversation
+                </p>
+                <p class="p-4 bg-gray-700/50 rounded-lg max-w-[300px]">
+                  Allows user to provide follow-up corrections
+                </p>
+                <p class="p-4 bg-gray-700/50 rounded-lg max-w-[300px]">
+                  Trained to decline inappropriate requests
+                </p>
+              </div>
+            </div>
+
+            <div class="flex flex-col items-center justify-center mb-5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z"
+                />
+              </svg>
+
+              <h2>Limitations</h2>
+              <div class="space-y-2">
+                <p class="p-4 bg-gray-700/50 rounded-lg max-w-[300px]">
+                  May occasionally generate incorrect information
+                </p>
+                <p class="p-4 bg-gray-700/50 rounded-lg max-w-[300px]">
+                  May occasionally produce harmful instructions or biased
+                  content
+                </p>
+                <p class="p-4 bg-gray-700/50 rounded-lg max-w-[300px]">
+                  Limited knowledge of world and events after 2021
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Input -->
+          <div
+            class="bg-gray-700/50 text-gray-400 rounded-[30px] text-sm focus:outline-none mt-[200px] w-[920px]"
+          >
+            <form class="p-5 space-x-5 items-center flex">
+              <input
+                class="bg-transparent focus:outline-none flex-1 text-m disabled:cursor-not-allowed disabled:text-gray-300"
+                type="text"
+                placeholder="Send a message"
+              />
+              <button
+                type="submit"
+                class="bg-[#11A37F] hover:opacity-50 text-white font-bold px-4 py-2 rounded disabled:bg-gray-300 disabled:cursor-not-allowed"
+              >
+                <svg
+                  class="h-4 w-4 rotate-135"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M10 14L3 11l7-3 2 7zm1-1l-1-1m2 1l1-1M2 20l20-8-8 8L2 20z"
+                  ></path>
+                </svg>
+              </button>
+            </form>
+            <div>
+              <!-- {Model Selection} -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
